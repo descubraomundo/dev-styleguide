@@ -4,13 +4,13 @@
 
 All Projects follows the [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) coding standard and the [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md) autoloading standard.
 
-## Namespace
-### Internal
-#### Apps
+### Namespace
+#### Internal
+##### Apps
 In this case the vendor namespace should be the app name;
-#### Services
+##### Services
 In this case the vendor namespace it should be `DMI\Services\`.
-### Open Source
+#### Open Source
 If it is a open source project, it should should have the vendor package as `Descubraomundo`.
 
 ### Class Methods and Properties
@@ -73,7 +73,7 @@ For all the lang files, the keys should always be in `english` and in `snake_cas
 ```php
 <?php
     return [
-        'hello_word' => 'Hello Word!'
+        'hello_world' => 'Hello World!'
     ];
 ```
 
